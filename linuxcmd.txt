@@ -1,3 +1,5 @@
+
+
 1  cat /etc/passwd
     2  who
     3  w
@@ -46,4 +48,23 @@
    46  git init
    47  vi linuxcmd.txt
    48  history
+GIT CMDS
+
+39  yum install git -y
+   40  cd /opt
+   41  mkdir -p /opt/gitdemo
+   42  rpm -qa|grep http
+   43  cd gitdemo/
+   44  ll
+   45  top
+   46  git init
+   47  vi linuxcmd.txt
+   48  history
+   49  vi linuxcmd.txt
+   50  git status
+   51  git add linuxcmd.txt
+   52  git status
+   53  git commit -m"my frist commit"
+   54  git status
+   55  history
 
