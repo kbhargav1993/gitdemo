@@ -1,0 +1,49 @@
+1  cat /etc/passwd
+    2  who
+    3  w
+    4  netstat -tulpn
+    5  ps -ef
+    6  ps -ef|grep 1256
+    7  netstat -tulpn
+    8  ps -ef|grep 1257
+    9  top
+   10  ls -lrth
+   11  c
+   12  cd
+   13  pwd
+   14  catvi /etc/ssh/sshd_config
+   15  vi /etc/ssh/sshd_config
+   16  cd /etc/ssh/sshd_config
+   17  vim /etc/ssh/sshd_config
+   18  vi /etc/ssh/sshd_config
+   19  vi /etc/ssh/sshd_config
+   20  service sshd restart
+   21  service sshd status
+   22  head /etc/ssh/sshd_config
+   23  vi /etc/ssh/sshd_config
+   24  service sshd status
+   25  vi /etc/ssh/sshd_config
+   26  passwd
+   27  top
+   28  cat /etc/yum.repos.d/
+   29  ll /etc/yum.repos.d/
+   30  cat redhat-rhui.repo
+   31  cat redhat-rhui-client-config.repo
+   32  cd /etc/yum.repos.d
+   33  cat redhat-rhui-client-config.repo
+   34  yum install httpd
+   35  yum install httpd -y
+   36  rpm -qa|grep httd
+   37  rpm -qa|grep httpd
+   38  top
+   39  yum install git -y
+   40  cd /opt
+   41  mkdir -p /opt/gitdemo
+   42  rpm -qa|grep http
+   43  cd gitdemo/
+   44  ll
+   45  top
+   46  git init
+   47  vi linuxcmd.txt
+   48  history
+
