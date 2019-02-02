@@ -1,0 +1,166 @@
+    1  cat /etc/passwd
+    2  who
+    3  w
+    4  netstat -tulpn
+    5  ps -ef
+    6  ps -ef|grep 1256
+    7  netstat -tulpn
+    8  ps -ef|grep 1257
+    9  top
+   10  ls -lrth
+   11  c
+   12  cd
+   13  pwd
+   14  catvi /etc/ssh/sshd_config 
+   15  vi /etc/ssh/sshd_config
+   16  cd /etc/ssh/sshd_config 
+   17  vim /etc/ssh/sshd_config
+   18  vi /etc/ssh/sshd_config
+   19  vi /etc/ssh/sshd_config 
+   20  service sshd restart
+   21  service sshd status
+   22  head /etc/ssh/sshd_config 
+   23  vi /etc/ssh/sshd_config 
+   24  service sshd status
+   25  vi /etc/ssh/sshd_config 
+   26  passwd
+   27  top
+   28  cat /etc/yum.repos.d/
+   29  ll /etc/yum.repos.d/
+   30  cat redhat-rhui.repo
+   31  cat redhat-rhui-client-config.repo
+   32  cd /etc/yum.repos.d
+   33  cat redhat-rhui-client-config.repo
+   34  yum install httpd 
+   35  yum install httpd -y
+   36  rpm -qa|grep httd
+   37  rpm -qa|grep httpd
+   38  top
+   39  yum install git -y
+   40  cd /opt
+   41  mkdir -p /opt/gitdemo
+   42  rpm -qa|grep http
+   43  cd gitdemo/
+   44  ll
+   45  top
+   46  git init
+   47  vi linuxcmd.txt
+   48  history
+   49  vi linuxcmd.txt 
+   50  git status
+   51  git add linuxcmd.txt 
+   52  git status
+   53  git commit -m"my frist commit"
+   54  git status
+   55  history
+   56  licate gitdemo
+   57  locate gitdemo
+   58  which gitdemo
+   59  cd
+   60  cd /opt/gitdemo/
+   61  vi linuxcmd.txt 
+   62  git init
+   63  git status
+   64  git add linuxcmd.txt
+   65  git status
+   66  git commit -m"my second commit"
+   67  git status
+   68  git --help
+   69  git remote add origin https://github.com/kbhargav1993/gitdemo.git
+   70  git push -u origin master
+   71  top
+   72  cd /opt
+   73  mkdir -p ansible-demo
+   74  ll
+   75  cd ansible-demo/
+   76   
+   77  cd ..
+   78  ll
+   79  cd gitdemo/
+   80  mv /opt/ansible-demo/ /opt/gitdemo/
+   81  ll
+   82  pwd
+   83  netstat -tulpn
+   84  sudo su
+   85  cd /opt/
+   86  ll
+   87  cd gitdemo/
+   88  ls -lrth
+   89  ping
+   90  ssh
+   91  ping ww.google.com
+   92  ll
+   93  cd ansible-demo
+   94  ll
+   95  cd ..
+   96  git --help
+   97  git sttus
+   98  git status
+   99  yum install tree -y
+  100  tree
+  101  ll
+  102  git --help
+  103  git --help
+  104  git branch
+  105  git diff
+  106  git diff linuxcmd.txt 
+  107  git diff
+  108  tree
+  109  cd ansible-demo/
+  110  ll
+  111  sudo us
+  112  sudo su
+  113  cd /opt/
+  114  ll
+  115  cd gitdemo/
+  116  ll
+  117  pwd
+  118  cd ansible-demo/
+  119  ll
+  120  cd ansible-demo/
+  121  pwd
+  122  tree
+  123  cd cd /etc/yum.repos.d
+  124  cd cd /etc/yum.repos.d
+  125  cd /etc/yum.repos.d
+  126  vi ansible.repo
+  127  yum update -y
+  128  rpm --help
+  129  rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+  130  yum install ansible -y
+  131  sudo su
+  132  ansible --version
+  133  cd /etc/an
+  134  cd /etc/ansible/
+  135  ll
+  136  pwd
+  137  vi hosts 4
+  138  vi hosts 
+  139  vi /root/.ssh/devops.pem
+  140  pwd
+  141  vi hosts 
+  142  tail hosts 
+  143  cat /root/.ssh/devops.pem
+  144  ping 13.234.35.220
+  145  rpm -qa|grep http
+  146  rpm -qa|grep git
+  147  whereis gi
+  148  whereis git
+  149  /usr/bin/git --help
+  150  netstat -tulpn
+  151  cd /opt/gitdemo/opt/gitdemo
+  152  cd /opt/gitdemo
+  153  /opt/gitdemo
+  154  ll
+  155  less linuxcmd.txt 
+  156  ls -lrth
+  157  cd /etc/ansible/
+  158  ll
+  159  tail hosts 
+  160  cat /root/.ssh/devops.pem 
+  161  ssh -i /root/.ssh/devops.pem ec2-user@13.234.35.220
+  162  chmod 600 /root/.ssh/devops.pem
+  163  ssh -i /root/.ssh/devops.pem ec2-user@13.234.35.220
+  164  ansible all -m raw -q 'sudo uptime'
+  165  ansible all -m raw -a 'sudo uptime'
+  166  history > feb_02_ansible_installation 
