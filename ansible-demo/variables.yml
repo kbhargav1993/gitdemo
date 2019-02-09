@@ -5,11 +5,17 @@
   
   vars:
     pack_name: httpd
-    serv_name: httpd
+  vars_files:
+    - web_var.yml
   
   tasks:
     - name: Install {{ pack_name }}
       yum: pkg={{ pack_name }} state=installed
-    - name: Start {{ serv_name }}
-      service: name={{ serv_name }} state=started
+      notify: start httpd
+#    - name: Start {{ serv_name }}
+#      service: name={{ serv_name }} state=started
+  handlers:
+    - name: start httpd
+      action: service name=httpd state=started
+
 ...
