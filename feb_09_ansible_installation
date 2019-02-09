@@ -1,0 +1,358 @@
+    1  cat /etc/passwd
+    2  who
+    3  w
+    4  netstat -tulpn
+    5  ps -ef
+    6  ps -ef|grep 1256
+    7  netstat -tulpn
+    8  ps -ef|grep 1257
+    9  top
+   10  ls -lrth
+   11  c
+   12  cd
+   13  pwd
+   14  catvi /etc/ssh/sshd_config 
+   15  vi /etc/ssh/sshd_config
+   16  cd /etc/ssh/sshd_config 
+   17  vim /etc/ssh/sshd_config
+   18  vi /etc/ssh/sshd_config
+   19  vi /etc/ssh/sshd_config 
+   20  service sshd restart
+   21  service sshd status
+   22  head /etc/ssh/sshd_config 
+   23  vi /etc/ssh/sshd_config 
+   24  service sshd status
+   25  vi /etc/ssh/sshd_config 
+   26  passwd
+   27  top
+   28  cat /etc/yum.repos.d/
+   29  ll /etc/yum.repos.d/
+   30  cat redhat-rhui.repo
+   31  cat redhat-rhui-client-config.repo
+   32  cd /etc/yum.repos.d
+   33  cat redhat-rhui-client-config.repo
+   34  yum install httpd 
+   35  yum install httpd -y
+   36  rpm -qa|grep httd
+   37  rpm -qa|grep httpd
+   38  top
+   39  yum install git -y
+   40  cd /opt
+   41  mkdir -p /opt/gitdemo
+   42  rpm -qa|grep http
+   43  cd gitdemo/
+   44  ll
+   45  top
+   46  git init
+   47  vi linuxcmd.txt
+   48  history
+   49  vi linuxcmd.txt 
+   50  git status
+   51  git add linuxcmd.txt 
+   52  git status
+   53  git commit -m"my frist commit"
+   54  git status
+   55  history
+   56  licate gitdemo
+   57  locate gitdemo
+   58  which gitdemo
+   59  cd
+   60  cd /opt/gitdemo/
+   61  vi linuxcmd.txt 
+   62  git init
+   63  git status
+   64  git add linuxcmd.txt
+   65  git status
+   66  git commit -m"my second commit"
+   67  git status
+   68  git --help
+   69  git remote add origin https://github.com/kbhargav1993/gitdemo.git
+   70  git push -u origin master
+   71  top
+   72  cd /opt
+   73  mkdir -p ansible-demo
+   74  ll
+   75  cd ansible-demo/
+   76   
+   77  cd ..
+   78  ll
+   79  cd gitdemo/
+   80  mv /opt/ansible-demo/ /opt/gitdemo/
+   81  ll
+   82  pwd
+   83  netstat -tulpn
+   84  sudo su
+   85  cd /opt/
+   86  ll
+   87  cd gitdemo/
+   88  ls -lrth
+   89  ping
+   90  ssh
+   91  ping ww.google.com
+   92  ll
+   93  cd ansible-demo
+   94  ll
+   95  cd ..
+   96  git --help
+   97  git sttus
+   98  git status
+   99  yum install tree -y
+  100  tree
+  101  ll
+  102  git --help
+  103  git --help
+  104  git branch
+  105  git diff
+  106  git diff linuxcmd.txt 
+  107  git diff
+  108  tree
+  109  cd ansible-demo/
+  110  ll
+  111  sudo us
+  112  sudo su
+  113  cd /opt/
+  114  ll
+  115  cd gitdemo/
+  116  ll
+  117  pwd
+  118  cd ansible-demo/
+  119  ll
+  120  cd ansible-demo/
+  121  pwd
+  122  tree
+  123  cd cd /etc/yum.repos.d
+  124  cd cd /etc/yum.repos.d
+  125  cd /etc/yum.repos.d
+  126  vi ansible.repo
+  127  yum update -y
+  128  rpm --help
+  129  rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+  130  yum install ansible -y
+  131  sudo su
+  132  ansible --version
+  133  cd /etc/an
+  134  cd /etc/ansible/
+  135  ll
+  136  pwd
+  137  vi hosts 4
+  138  vi hosts 
+  139  vi /root/.ssh/devops.pem
+  140  pwd
+  141  vi hosts 
+  142  tail hosts 
+  143  cat /root/.ssh/devops.pem
+  144  ping 13.234.35.220
+  145  rpm -qa|grep http
+  146  rpm -qa|grep git
+  147  whereis gi
+  148  whereis git
+  149  /usr/bin/git --help
+  150  netstat -tulpn
+  151  cd /opt/gitdemo/opt/gitdemo
+  152  cd /opt/gitdemo
+  153  /opt/gitdemo
+  154  ll
+  155  less linuxcmd.txt 
+  156  ls -lrth
+  157  cd /etc/ansible/
+  158  ll
+  159  tail hosts 
+  160  cat /root/.ssh/devops.pem 
+  161  ssh -i /root/.ssh/devops.pem ec2-user@13.234.35.220
+  162  chmod 600 /root/.ssh/devops.pem
+  163  ssh -i /root/.ssh/devops.pem ec2-user@13.234.35.220
+  164  ansible all -m raw -q 'sudo uptime'
+  165  ansible all -m raw -a 'sudo uptime'
+  166  history > feb_02_ansible_installation 
+  167  ll
+  168  less feb_02_ansible_installation
+  169  cd /opt/gitdemo/
+  170  ll
+  171  mv /root/feb_02_ansible_installation /opt/gitdemo/
+  172  ll
+  173  git status
+  174  git add feb_02_ansible_installation
+  175  git status
+  176  git commit feb_02_ansible_installation
+  177  git status
+  178  git --help
+  179  git push
+  180  cd /opt/gitdemo/ansible-demo/
+  181  ll
+  182  sudo su
+  183  ll
+  184  vim httpd.yml
+  185  yum install vim
+  186  vim httpd.yml
+  187  ll
+  188  git status
+  189  mv  httpd.yml httpd.yaml
+  190  cat httpd.yaml 
+  191  tail /etc/ansible/hosts 
+  192  vim httpd.yaml
+  193  mv httpd.yaml httpd.yml
+  194  ansible-playbook httpd.yml -vvv
+  195  vim /opt/gitdemo/ansible-demo/httpd.yml
+  196  cd /opt/gitdemo/ansible-demo/
+  197  ls -lrth
+  198  vim httpd.yml
+  199  ansible-playbook httpd.yml -vvv
+  200  vim httpd.yml
+  201  ansible-playbook httpd.yml -vvv
+  202  vim httpd.yml
+  203  ansible-playbook httpd.yml -vvv
+  204  cat /etc/ansible/hosts 
+  205  vim /etc/ansible/hosts 
+  206  ansible-playbook httpd.yml -vvv
+  207  ansible-playbook httpd.yml -v
+  208  ansible-playbook httpd.yml -vv
+  209  ansible-playbook httpd.yml -vvv
+  210  ansible-playbook httpd.yml -vv
+  211  ansible-playbook --help
+  212  ansible-playbook --help|less
+  213  ansible-playbook httpd.yml -vvvv
+  214  cp httpd.yml httpd2.yml
+  215  vim httpd2.yml
+  216  ansible-playbook httpd2.yml -v
+  217  vim httpd2.yml
+  218  ansible-playbook httpd2.yml -v
+  219  vim httpd2.yml
+  220  ansible-playbook httpd2.yml -v
+  221  ansible-playbook httpd.yml -v
+  222  vim httpd2.yml
+  223  cd /opt/gitdemo/ansible-demo/
+  224  ls -lrth
+  225  vim variables.yml
+  226  ansible-playbook variables.yml -v
+  227  vim variables.yml
+  228  ls -lrth
+  229  cat httpd.yml
+  230  cat variables.yml
+  231  git status
+  232  ll
+  233  git add .
+  234  git status
+  235  cd /opt/gitdemo/ansible-demo/
+  236  ll
+  237  ls -lrth
+  238  git status
+  239  git commit -m"ansible 02-FEB"
+  240  git push
+  241  top
+  242  ps
+  243  pidof 4118
+  244  ll
+  245  cd /opt/gitdemo/ansible-demo/
+  246  ls -lrth
+  247  vim variables.yml
+  248  ansible-playbook variables.yml -v
+  249  tailf  /etc/ansible/ansible.cfg 
+  250  vim /etc/ansible/ansible.cfg
+  251  ansible -v
+  252  cd /etc/ansible/hosts 
+  253  vim /etc/ansible/hosts 
+  254  ansible-playbook variables.yml -v
+  255  cd /opt/gitdemo/ansible-demo/
+  256  ls -lrth
+  257  ansible-playbook variables.yml -v
+  258  ls -lrth
+  259  vim variables.yml
+  260  cat variables.yml 
+  261  vim web_var.yml
+  262  ansible-playbook variables.yml -v
+  263  cat variables.yml 
+  264  cat web_var.yml 
+  265  vim variables.yml
+  266  ansible-playbook variables.yml -v
+  267  vim variables.yml
+  268  cd /opt/gitdemo/ansible-demo/
+  269  ls -lrth
+  270  vim variables.yml
+  271  ansible-playbook variables.yml -v
+  272  vim variables.yml
+  273  ansible-playbook variables.yml -v
+  274  ansible-playbook variables.yml -vvv
+  275  vim variables.yml
+  276  ansible-playbook variables.yml -vvv
+  277  ansible-playbook variables.yml -v
+  278  vim variables.yml
+  279  ansible-playbook variables.yml -v
+  280  ls -lrth
+  281  vim variables.yml
+  282  cd /opt/gitdemo/
+  283  ls -lrth
+  284  cd ansible-demo/
+  285  ls -lrth
+  286  git status
+  287  cat variables.yml 
+  288  vim add_users.yml
+  289  cat add_users.yml
+  290  ansible-playbook add_users.yml  -vv
+  291  vim add_users.yml
+  292  cat variables.yml 
+  293  vim add_users.yml
+  294  ansible-playbook add_users.yml  -vv
+  295  vim add_users.yml
+  296  cd /opt/gitdemo/ansible-demo/
+  297  ls -lrth
+  298  vim add_users.yml
+  299  ansible-playbook add_users.yml  -vv
+  300  cat variables.yml 
+  301  vim add_users.yml
+  302  ansible-playbook add_users.yml  -vv
+  303  vim add_users.yml
+  304  ansible-playbook add_users.yml  -vv
+  305  dd_users.yml
+  306  cat add_users.yml 
+  307  cat /etc/passwd
+  308  ansible-playbook add_users.yml  -vv
+  309  cp add_users.yml add_user.yml
+  310  vim add_user.yml
+  311  vim add_users.yml
+  312  ansible-playbook add_users.yml  -vv
+  313  ansible-playbook add_users.yml  -vvv
+  314  sudo su
+  315  cd /opt/gitdemo/ansible-demo/
+  316  ls -lrth
+  317  cd ..
+  318  git status
+  319  cd ansible-demo/
+  320  vim common_list.yml
+  321  vim list_demo.yml
+  322  cat variables.yml 
+  323  vim list_demo.yml
+  324  ansible-playbook list_demo.yml  -vvv
+  325  vim list_demo.yml
+  326  ansible-playbook list_demo.yml  -vvv
+  327  vim list_demo.yml
+  328  sudo su
+  329  cd /opt/gitdemo/ansible-demo/
+  330  ls- lrth
+  331  ls -lrth
+  332  vim list_demo.yml 
+  333  ansible-playbook list_demo.yml  -vvv
+  334  vim common_list.yml 
+  335  ansible-playbook list_demo.yml  -vvv
+  336  cd /opt/gitdemo/ansible-demo/
+  337  ls -lrth
+  338  ansible-playbook list_demo.yml  -vvv
+  339  vim lookup_demp.yml
+  340  cd /opt/gitdemo/ansible-demo/
+  341  cat lookup_demp.yml 
+  342  vim city-data.csv
+  343  cat city-data.csv 
+  344  ansible-playbook lookup_demp.yml  -v
+  345  vim city-data.csv
+  346  vim lookup_demp.yml
+  347  cat lookup_demp.yml 
+  348  cd /opt/gitdemo/
+  349  ls -lrth
+  350  git status
+  351  git add .
+  352  git status
+  353  git commit -m"ansible 09-FEB"
+  354  git push -u origin master
+  355  git push -u origin master
+  356  git push -u origin master
+  357  git status
+  358  history > feb_09_ansible_installation 
